@@ -1,0 +1,12 @@
+#Python==3.7.11
+#pip3
+
+keyboard==0.13.5
+mss==9.0.1
+opencv-python==4.9.0.80
+pyautogui==0.9.54
+
+#pyautogui will install below libs
+#installed mouseinfo-0.1.3 pyautogui-0.9.54 pygetwindow-0.0.9 
+#pymsgbox-1.0.9 pyperclip-1.8.2 pyrect-0.2.0 pyscreeze-0.1.30 pytweening-1.0.7
+
