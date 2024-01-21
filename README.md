@@ -3,23 +3,28 @@
 
 Please follow steps below,
 
-1. Download and install stable python 3 from https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe
-
+1. Windows: Download and install stable python 3 from https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe.
 2. click on "Use admin priviledges..." and "Add Python.exe to PATH" and click on "Install Now"
 
-3. install pip for python3: py -3 -m ensurepip
+3. Ubuntu:apt update && apt upgrade -y
+4. apt install software-properties-common -y
+5. add-apt-repository ppa:deadsnakes/ppa
+6. apt update
+7. apt install python3.12   
 
-4. upgrade virtual env: pip install --upgrade virtualenv
+8. install pip for python3: py -3 -m ensurepip
 
-5. create a virtual env: virtualenv --python=/usr/bin/python3
+9. upgrade virtual env: pip install --upgrade virtualenv
 
-6. python -m venv env
+10. create a virtual env: virtualenv --python=/usr/bin/python3
 
-7. "env1/Scripts/activate"
+11. python -m venv env
 
-8. install dependencies: pip install -U -r requirements.txt 
+12. "env1/Scripts/activate"
 
-9. Go to the folder and run the app: python main.py
+13. install dependencies: pip install -U -r requirements.txt 
+
+14. Go to the folder and run the app: python main.py
 
 Press q for exit the bot
 
